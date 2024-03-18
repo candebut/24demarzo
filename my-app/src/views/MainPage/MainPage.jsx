@@ -26,16 +26,18 @@ const MainPage = () => {
       <h3>Cine por la memoria</h3>
       <h5>Películas para pensar el 24 de Marzo</h5>
 
-      {movieList && movieList.length
-        ? movieList.map((movie, index) => (
-            <Movie
-              key={`movie_${movie.name}-${index}`}
-              movie={movie}
-              handleOpenModal={() => handleOpenModal(true)}
-              setCurrentMovie={setCurrentMovie}
-            />
-          ))
-        : 'No movies to show'}
+      <div className='movies_wrapper'>
+        {movieList && movieList.length
+          ? movieList.map((movie, index) => (
+              <Movie
+                key={`movie_${movie.name}-${index}`}
+                movie={movie}
+                handleOpenModal={() => handleOpenModal(true)}
+                setCurrentMovie={setCurrentMovie}
+              />
+            ))
+          : 'No hay películas para mostrar'}
+      </div>
     </div>
   );
 };

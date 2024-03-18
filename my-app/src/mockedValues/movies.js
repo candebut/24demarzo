@@ -7,7 +7,7 @@ export const movieList = [
   {
     name: 'La noche de los lápices',
     url: 'https://ok.ru/video/3379044747802',
-    img: '/static/images/La-noche-de-los-lapices.jpeg',
+    img: '/static/images/la-noche-de-los-lapices.jpeg',
   },
   {
     name: 'Un muro de silencio',
