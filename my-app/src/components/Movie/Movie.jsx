@@ -6,16 +6,11 @@ const Movie = ({ movie }) => {
   };
 
   return (
-    <div className='movie-box'>
+    <div className='movie-box' onClick={() => redirectToMovie(movie.url)}>
       <img src={movie.img} alt={`${movie.name} poster`} />
 
       <div class='movie-box-overlay'>
-        <div
-          className='movie-box-text'
-          onClick={() => redirectToMovie(movie.url)}
-        >
-          Ver película gratis
-        </div>
+        <div className='movie-box-text'>Ver película gratis</div>
       </div>
     </div>
   );
