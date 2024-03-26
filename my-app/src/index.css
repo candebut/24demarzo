@@ -9,5 +9,13 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    monospace, 'Roboto Mono', monospace;
+}
+
+@font-face {
+  font-family: 'Roboto Mono', monospace;
+  src: local('Roboto Mono'),
+    url('./fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf')
+      format('truetype');
+  font-weight: bold;
 }

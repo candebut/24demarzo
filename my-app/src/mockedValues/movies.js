@@ -5,19 +5,25 @@ export const movieList = [
     img: '/static/images/garage_olimpo.jpeg',
   },
   {
-    name: 'La noche de los lápices',
-    url: 'https://ok.ru/video/3379044747802',
-    img: '/static/images/la-noche-de-los-lapices.jpeg',
+    name: 'Se busca',
+    url: 'https://www.youtube.com/playlist?list=PLGIP2SzAkWMZBblblHwpeduVHGNn_3Fkx',
+    img: '/static/images/se_busca.jpg',
   },
   {
     name: 'Un muro de silencio',
     url: 'https://ok.ru/video/6470988663485',
     img: '/static/images/la_historia_oficial.webp',
   },
+
   {
     name: 'Operación México, una pacto de amor',
     url: 'https://ok.ru/video/4698434374234',
-    img: '/static/images/operacion_mexico',
+    img: '/static/images/operacion_mexico.jpeg',
+  },
+  {
+    name: 'Televisión por la identidad',
+    url: 'https://youtu.be/D3_eALxvQDA?si=U6eOOKwOoPhtvjgE',
+    img: '/static/images/tv_por_la_identidad.jpg',
   },
   {
     name: 'La amiga',
@@ -135,6 +141,11 @@ export const movieList = [
     img: '/static/images/los_prohibidos.jpeg',
   },
   {
+    name: 'La noche de los lápices',
+    url: 'https://ok.ru/video/3379044747802',
+    img: '/static/images/la_noche_de_los_lapices.jpeg',
+  },
+  {
     name: 'Historias cotidianas',
     url: 'https://play.cine.ar/INCAA/produccion/7983',
     img: '/static/images/historias_cotidianas.jpeg',
@@ -147,7 +158,7 @@ export const movieList = [
   {
     name: 'La casa de Arguello',
     url: 'https://play.cine.ar/INCAA/produccion/6148',
-    img: '/static/images/la_casa_de_arguello',
+    img: '/static/images/la_casa_de_arguello.jpeg',
   },
   {
     name: 'Pasaje de vida',
@@ -197,7 +208,7 @@ export const movieList = [
   {
     name: 'Ojos azules',
     url: 'https://www.youtube.com/watch?v=9JFZSssS98U',
-    img: '/static/images/ojos_azules',
+    img: '/static/images/ojos_azules.webp',
   },
   {
     name: 'Séptimo',
@@ -209,4 +220,35 @@ export const movieList = [
     url: 'https://www.youtube.com/watch?v=LBJqxJOam1k',
     img: '/static/images/el_almuerzo.jpeg',
   },
+  {
+    name: 'El golpe. Memoria del horror',
+    url: 'https://www.youtube.com/watch?v=9Llh2vAWWCE&pp=ygUeZG9jdW1lbnRhbCBkaWN0YWR1cmEgYXJnZW50aW5h',
+    img: '/static/images/el_golpe.jpg',
+  },
+  {
+    name: 'ESMA, la voz de los sobrevivientes',
+    url: 'https://www.youtube.com/watch?v=yTRc6l7PMVs&pp=ygUeZG9jdW1lbnRhbCBkaWN0YWR1cmEgYXJnZW50aW5h',
+    img: '/static/images/esma.jpg',
+  },
+  {
+    name: 'Dictaduras latinoamericanas',
+    url: 'https://www.youtube.com/watch?v=ufzoqg3lIkY&pp=ygUeZG9jdW1lbnRhbCBkaWN0YWR1cmEgYXJnZW50aW5h',
+    img: '/static/images/dictaduras_latinoamericanas.jpg'
+  },
+  {
+    name: 'Toddy',
+    url: 'https://www.youtube.com/watch?v=hAI0YCC754U',
+    img: '/static/images/toddy.jpeg'
+  },
+  {
+    name: '1976',
+    url: 'https://www.youtube.com/watch?v=Ap3qaI_rHL4',
+    img: '/static/images/1976.jpg',
+  },
+  {
+    name: 'Líneas de teléfono',
+    url: 'https://www.youtube.com/watch?v=vuHueQNAW4I',
+    img: '/static/images/lineas_de_telefono.jpeg'
+  }
+
 ];
