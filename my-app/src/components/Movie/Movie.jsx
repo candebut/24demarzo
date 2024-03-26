@@ -10,7 +10,7 @@ const Movie = ({ movie }) => {
       <img src={movie.img} alt={`${movie.name} poster`} />
 
       <div class='movie-box-overlay'>
-        <div className='movie-box-text'>Ver película gratis</div>
+        <div className='movie-box-text'>{`Ver "${movie.name}" gratis`}</div>
       </div>
     </div>
   );
