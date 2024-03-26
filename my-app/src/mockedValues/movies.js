@@ -10,11 +10,10 @@ export const movieList = [
     img: '/static/images/se_busca.jpg',
   },
   {
-    name: 'Un muro de silencio',
-    url: 'https://ok.ru/video/6470988663485',
+    name: 'La historia oficial',
+    url: 'https://ok.ru/video/6909177629268',
     img: '/static/images/la_historia_oficial.webp',
   },
-
   {
     name: 'Operación México, una pacto de amor',
     url: 'https://ok.ru/video/4698434374234',
@@ -134,6 +133,11 @@ export const movieList = [
     name: '70 y pico',
     url: 'https://play.cine.ar/INCAA/produccion/5467',
     img: '/static/images/70_y_pico.jpeg',
+  },
+  {
+    name: 'Un muro de silencio',
+    url: 'https://ok.ru/video/6470988663485',
+    img: '/static/images/un_muro_de_silencio.jpeg',
   },
   {
     name: 'Los prohibidos',
