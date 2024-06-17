@@ -30,13 +30,13 @@ $green: #00831D;
 }
 
 body {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .app-wrapper {
   font-family: "Playwrite";
-  color: white;
+  color: black;
 
   .input-box {
     margin: 30px;
@@ -48,9 +48,9 @@ body {
     font-size: 20px;
     font-family: "Bebas";
     background: transparent;
-    border: 1px solid white;
+    border: 1px solid black;
     box-shadow: none;
-    color: white;
+    color: black;
   }
 
   input:focus {
