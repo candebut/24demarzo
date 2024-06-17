@@ -19,12 +19,16 @@ const MainPage = () => {
   return (
     <div className='app-wrapper'>
       <h1>Cine por la memoria</h1>
-      <h3>Películas para pensar el 24 de Marzo</h3>
+      <h3>Películas que protegen la memoria al alcance de un solo click</h3>
       <Search setQuery={setQuery} />
       <div className='movies_wrapper'>
         {movieList && movieList.length
           ? search(movieList).map((movie, index) => (
-              <Movie key={`movie_${movie.name}-${index}`} movie={movie} />
+              <Movie
+                key={`movie_${movie.name}-${index}`}
+                movie={movie}
+                index={index}
+              />
             ))
           : 'No hay películas para mostrar'}
       </div>
