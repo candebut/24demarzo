@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { movieList } from '../../mockedValues/movies';
 import Movie from '../../components/Movie/Movie';
 import Search from '../../components/Search/Search';
+import Disclaimer from '../../components/Disclaimer/Disclaimer';
 
 const MainPage = () => {
   const [query, setQuery] = useState('');
@@ -21,6 +22,7 @@ const MainPage = () => {
       <h1>Cine por la memoria</h1>
       <h3>Películas que protegen la memoria al alcance de un solo click</h3>
       <Search setQuery={setQuery} />
+      {/* <Disclaimer /> */}
       <div className='movies_wrapper'>
         {movieList && movieList.length
           ? search(movieList).map((movie, index) => (
