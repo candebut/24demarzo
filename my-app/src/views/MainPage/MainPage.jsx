@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { movieList } from '../../mockedValues/movies';
 import Movie from '../../components/Movie/Movie';
 import Search from '../../components/Search/Search';
-import Disclaimer from '../../components/Disclaimer/Disclaimer';
+// import Disclaimer from '../../components/Disclaimer/Disclaimer';
 
 const MainPage = () => {
   const [query, setQuery] = useState('');

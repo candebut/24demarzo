@@ -18,7 +18,7 @@ const Movie = ({ movie, index }) => {
         opacity: 1,
         x: 0,
         transition: {
-          duration: 1,
+          duration: 0.5,
         },
       }}
       viewport={{ once: true }}
@@ -30,7 +30,7 @@ const Movie = ({ movie, index }) => {
     >
       <img src={movie.img} alt={`${movie.name} poster`} />
       <div class='movie-box-overlay'>
-        <div className='movie-box-text'>{`Ver "${movie.name}" gratis`}</div>
+        <div className='movie-box-text'>{`Hacé click para ver "${movie.name}" gratis`}</div>
       </div>
     </motion.div>
   );
